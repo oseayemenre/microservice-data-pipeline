@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "experimentalDecorators": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "skipLibCheck": true
+  },
+  "include": [".d.ts", "**/*.ts"]
+}
