@@ -16,7 +16,7 @@ export async function consumeMessage(topic: string, callback: Function) {
   await consumer.subscribe({ topic });
   await consumer.run({
     eachMessage: async ({ topic, partition, message }) => {
-      callback(message);
+      callback(message.value?.toString());
     },
   });
 }
